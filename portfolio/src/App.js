@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch } from 'react-router-dom'
+import HashLinkObserver from 'react-hash-link'
 
 import Home from './Components/Home'
 import About from './Components/About'
@@ -10,18 +11,21 @@ import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <main>
+    <>
+      <BrowserRouter>
         <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/project" component={Project} />
-          <Route path="/interests" component={Interests} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </main>
-    </BrowserRouter>
+        {/* <Switch> */}
+          <HashLinkObserver />
+          <Home />
+          <About />
+          <Project />
+          <Interests />
+          <Contact />
+        {/* </Switch> */}
+      </BrowserRouter>
+
+    </>
+
   )
 }
 
