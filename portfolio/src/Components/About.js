@@ -3,8 +3,16 @@ import React from 'react'
 const About = () => {
   return (
     <div id="about">
-      <h1>About Page</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus pulvinar elementum integer enim neque volutpat ac. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Urna et pharetra pharetra massa massa ultricies mi. Nisi est sit amet facilisis magna etiam tempor. Dolor purus non enim praesent elementum facilisis. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Sed vulputate mi sit amet mauris. Aliquam sem et tortor consequat. Vivamus at augue eget arcu dictum varius duis at consectetur. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Suscipit tellus mauris a diam maecenas sed enim ut. Felis imperdiet proin fermentum leo vel. Purus ut faucibus pulvinar elementum integer.</p>
+      <div>
+        <h1>Skills</h1>
+        <p>some of my skills include...</p>
+      </div>
+      <div>
+        <h1>About Me</h1>
+        <p>Hello, I'm Noa, I'm a Software Engineer based in London.</p>
+        <p>Previously, I worked as a Legal Assistant at Trainline. Supporting the Legal team, as well as other functions and missions. These included procurement functions, Government Relations teams and various sustainability and CSR missions. As part of my time at Trainline, I opted into a Level 1 coding course run by Code First: Girls and absolutely loved it. But when I finished it I didn't really see myself as a coder. Fast forward 2 years, a pandemic, and some tough times, I decided to embark on the challenge that is 'the coding'. I enrolled on General Assembly's Software Engineering Immersive course and haven't looked back.</p>
+        <p>Currenlty, I'm coding as much as possible, and looking to get stuck into a front-end developer role. If you're curious about the non-coding side of me, click here!</p>
+      </div>
     </div>
   )
 }
