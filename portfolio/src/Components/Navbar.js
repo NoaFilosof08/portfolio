@@ -3,36 +3,28 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
-    // <nav className="navbar">
-    //   <Link to="/" className="navbar-item">Home</Link>
-    //   <Link to="/#about" className="navbar-item">About</Link>
-    //   <Link to="/#project" className="navbar-item">Projects</Link>
-    //   <Link to="/#interests" className="navbar-item">Interests</Link>
-    //   <Link to="/#contact" className="navbar-item">Contact</Link>
-    // </nav>
-
-    <nav className="navbar">
-    <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-        NF
-        </Link>
-        {/* <span onClick={this.handleToggle} className={`navbar-burger ${this.state.isOpen ? 'is-active' : ''}`}> */}
-          {/* <span></span>
-          <span></span>
-          <span></span> */}
-        {/* </span> */}
-      </div>
-      {/* <div className={`navbar-menu ${this.state.isOpen ? 'is-active' : ''}`}> */}
-        <div className="navbar">
-          <Link to="/#about" className="navbar-item">about</Link>
-          <Link to="/#project" className="navbar-item">Projects</Link>
-          <Link to="/#interests" className="navbar-item">Interests</Link>
-          <Link to="/#contact" className="navbar-item">Contact</Link>
+    <nav className="navbar is-fixed-top">
+      <div className="container">
+        <div className="navbar-brand">
+          <Link to="/#home" className="navbar-item" spy={true} smooth={true} duration={1000}>
+          NF
+          </Link>
+          {/* <span onClick={this.handleToggle} className={`navbar-burger ${this.state.isOpen ? 'is-active' : ''}`}> */}
+            {/* <span></span>
+            <span></span>
+            <span></span> */}
+          {/* </span> */}
         </div>
-      {/* </div> */}
-    </div>
-  </nav>
+        {/* <div className={`navbar-menu ${this.state.isOpen ? 'is-active' : ''}`}> */}
+          <div className="navbar">
+            <Link to="/#about" className="navbar-item" spy={true} smooth={true} duration={1000}>about</Link>
+            <Link to="/#project" className="navbar-item" spy={true} smooth={true} duration={1000}>Projects</Link>
+            <Link to="/#interests" className="navbar-item" spy={true} smooth={true} duration={1000}>Interests</Link>
+            <Link to="/#contact" className="navbar-item" spy={true} smooth={true} duration={1000}>Contact</Link>
+          </div>
+        {/* </div> */}
+      </div>
+    </nav>
   )
 }
 
