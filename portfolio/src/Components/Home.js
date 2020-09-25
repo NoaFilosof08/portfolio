@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div id="home">
+    <div id="home" className="section">
       <div className="hero is-large">
         <div className="hero-body">
           <div className="container">

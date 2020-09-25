@@ -1,0 +1,17 @@
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 50vw;
+  margin-right: 40px;
+  margin-left: 40px;
+  // flex-wrap: wrap;
+}
+
+.tile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
