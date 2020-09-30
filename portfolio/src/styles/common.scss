@@ -14,9 +14,24 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+
+}
+
+.proj1 {
+  display: flex;
+  background-color: black;
+  color: white;
+  // margin: 1px;
 }
 
 .proj {
   display: flex;
   flex-direction: column;
+}
+
+.icon {
+  font-size: 4rem;
+  height: 40px;
+  width: 40px;
+  margin: 20px;
 }

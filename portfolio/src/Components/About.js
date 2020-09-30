@@ -8,6 +8,22 @@ const About = () => {
         <div className="container">
           <h1 className="title">Skills</h1>
           <p>some of my skills include...</p>
+          <div>
+            <i className="devicon-javascript-plain icon"></i>
+            <i className="devicon-html5-plain-wordmark icon"></i>
+            <i className="devicon-mongodb-plain-wordmark colored icon"></i>
+            <i className="devicon-nodejs-plain-wordmark colored icon"></i>
+            <i className="devicon-npm-original-wordmark colored icon"></i>
+            <i className="devicon-postgresql-plain-wordmark colored icon"></i>
+            <i className="devicon-python-plain-wordmark colored icon"></i>
+            <i className="devicon-react-original-wordmark colored icon"></i>
+            <i className="devicon-sass-original colored icon"></i>
+            <i className="devicon-yarn-plain-wordmark colored icon"></i>
+            <i className="devicon-css3-plain-wordmark colored icon"></i>
+            <i className="devicon-django-plain-wordmark colored icon"></i>
+            <i className="devicon-express-original-wordmark colored icon"></i>
+            <i className="devicon-github-plain-wordmark colored icon"></i>
+          </div>
         </div>
         <div className="container">
           <h1 className="title">About Me</h1>
