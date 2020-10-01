@@ -10,23 +10,14 @@
   // flex-wrap: wrap;
 }
 
+.cont {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
 .tile {
-  display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
-
-}
-
-.proj1 {
-  display: flex;
-  background-color: black;
-  color: white;
-  // margin: 1px;
-}
-
-.proj {
-  display: flex;
-  flex-direction: column;
 }
 
 .icon {
