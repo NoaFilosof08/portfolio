@@ -1,5 +1,6 @@
 import React from 'react'
 import { } from 'react-scroll'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const About = () => {
   return (
@@ -23,13 +24,14 @@ const About = () => {
             <i className="devicon-django-plain-wordmark colored icon"></i>
             <i className="devicon-express-original-wordmark colored icon"></i>
             <i className="devicon-github-plain-wordmark colored icon"></i>
+            <i className="devicon-heroku-original-wordmark icon"></i>
           </div>
         </div>
         <div className="container">
           <h1 className="title">About Me</h1>
           <p>Hello, I'm Noa, I'm a Software Engineer based in London.</p>
           <p>Previously, I worked as a Legal Assistant at Trainline. Supporting the Legal team, as well as other functions and missions. These included procurement functions, Government Relations teams and various sustainability and CSR missions. As part of my time at Trainline, I opted into a Level 1 coding course run by Code First: Girls and absolutely loved it. But when I finished it I didn't really see myself as a coder. Fast forward 2 years, a pandemic, and some tough times, I decided to embark on the challenge that is 'the coding'. I enrolled on General Assembly's Software Engineering Immersive course and haven't looked back.</p>
-          <p>Currenlty, I'm coding as much as possible, and looking to get stuck into a front-end developer role. If you're curious about the non-coding side of me, click here!</p>
+          <p>Currenlty, I'm coding as much as possible, and looking to get stuck into a front-end developer role. If you're curious about the non-coding side of me, <span><Link to="/#interests" spy={true} smooth={true} duration={1000}>click here!</Link></span></p>
         </div>
       </div>
     </div>

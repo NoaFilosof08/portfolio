@@ -1,28 +1,27 @@
 import React from 'react'
+// import { Link } from 'react-router-dom'
 
-const Contact = () => {
-  return (
-    <div id="contact">
-      <div className="section">
-        <div className="container">
-          <h1>Contact Page</h1>
-          <div className="tabs is-centered is-boxed is-medium">
-            <ul>
-              <li className="is-active"><span>Email</span></li>
-              <li><span>GitHub</span></li>
-              <li><span>LinkedIn</span></li>
-              {/* <li><span>Email</span></li> */}
-            </ul>
+class Contact extends React.Component {
+  render() {
+    return (
+      <div id="contact">
+        <div className="section footer">
+          <div className="container">
+            <h1 className="contact-title">Get in Touch!</h1>
+            <div className="list">
+              <ul>
+                <li><a href="https://github.com/NoaFilosof08" target="_blank" rel="noopener noreferrer"><i className="devicon-github-plain colored icon-small"></i></a></li>
 
+                <li><a href="https://www.linkedin.com/in/noa-filosof/" target="_blank" rel="noopener noreferrer"><i className="devicon-linkedin-plain icon-small"></i></a></li>
+
+                <li><span><u>noafilosof@hotmail.co.uk</u></span></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-
-      <p>noafilosof@hotmail.co.uk</p>
-      <p>https://github.com/NoaFilosof08</p>
-      <p>https://www.linkedin.com/in/noa-filosof/</p>
-    </div>
-  )
+    )
+  }
 }
 
 export default Contact
