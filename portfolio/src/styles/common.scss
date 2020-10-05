@@ -1,3 +1,18 @@
+* {
+  font-family: $PrimaryFont;
+  color: $PrimaryOne;
+}
+
+.button {
+  font-family: $PrimaryFont;
+  background-color: $PrimaryOne;
+  color: $PrimaryOne;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: $PrimaryFont;
+}
+
 h1 {
   text-align: center;
   font-size: 30px;
@@ -14,6 +29,13 @@ h3 {
 .section {
   display: flex;
   flex-direction: row;
+}
+
+.home {
+  background-color: $PrimaryOne;
+  .title{
+    color: $PrimaryFive;
+  }
 }
 
 .container {
@@ -33,11 +55,33 @@ h3 {
   margin-top: 10px;
 }
 
+.proj1 {
+  transition: all .2s ease-in-out;
+}
+
+.proj1:hover {
+  transform: scale(1.05);
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+
 .icon {
   font-size: 4rem;
   height: 40px;
   width: 40px;
   margin: 20px;
+  animation: icon 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes icon {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
 }
 
 .interests {
@@ -80,5 +124,5 @@ li {
 }
 
 .footer {
-  background-color: orange;
+  background-color: $PrimaryFour;
 }

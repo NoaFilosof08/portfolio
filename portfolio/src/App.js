@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import HashLinkObserver from 'react-hash-link'
 
 import Home from './Components/Home'

@@ -4,11 +4,11 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 const About = () => {
   return (
-    <div id="about" className="scroll">
+    <div id="about" className="scroll preload">
       <div className="section">
         <div className="container">
           <h1 className="title">Skills</h1>
-          <p>some of my skills include...</p>
+          <p className="skills">some of my skills include...</p>
           <div>
             <i className="devicon-javascript-plain icon"></i>
             <i className="devicon-html5-plain-wordmark icon"></i>
