@@ -4,9 +4,25 @@
 }
 
 .button {
-  font-family: $PrimaryFont;
+
   background-color: $PrimaryOne;
-  color: $PrimaryOne;
+  a {
+    color: $PrimaryFive;
+    font-family: $PrimaryFont;
+  }
+}
+
+.button:hover {
+  background-color: $PrimaryTwo;
+  a:hover {
+    color: $PrimaryOne;
+  }
+
+}
+
+
+.bold {
+  font-weight: 700;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -16,6 +32,8 @@ h1, h2, h3, h4, h5, h6, p {
 h1 {
   text-align: center;
   font-size: 30px;
+  color: $PrimaryFive;
+  font-weight: 700;
 }
 h2 {
   text-align: center;
@@ -24,11 +42,13 @@ h2 {
 
 h3 {
   font-size: 20px;
-  font-family: 700;
+  font-weight: 700;
 }
+
 .section {
   display: flex;
   flex-direction: row;
+  background-color: $PrimaryFive;
 }
 
 .home {
@@ -36,6 +56,14 @@ h3 {
   .title{
     color: $PrimaryFive;
   }
+  .subtitle {
+    color: $PrimaryTwo;
+  }
+}
+
+.title-about {
+  display: flex;
+
 }
 
 .container {
@@ -53,6 +81,7 @@ h3 {
 .tile {
   flex-wrap: wrap;
   margin-top: 10px;
+  background-color: $PrimaryFive;
 }
 
 .proj1 {
@@ -64,7 +93,7 @@ h3 {
 }
 
 .skills {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .icon {
@@ -73,6 +102,19 @@ h3 {
   width: 40px;
   margin: 20px;
   animation: icon 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.smol-icons {
+  font-size: 2rem;
+  margin: 10px;
+
+}
+
+.icons-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes icon {
@@ -125,4 +167,18 @@ li {
 
 .footer {
   background-color: $PrimaryFour;
+}
+
+// navbar
+.navbar {
+  min-height: 2rem;
+  background-color: $PrimaryOne;
+  .navbar-item {
+    color: $PrimaryFive;
+  }
+}
+
+.navbar .navbar-item:hover {
+  background-color: $PrimaryTwo;
+  color: $PrimaryOne;
 }
