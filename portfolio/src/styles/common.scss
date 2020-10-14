@@ -55,9 +55,11 @@ h3 {
   background-color: $PrimaryOne;
   .title{
     color: $PrimaryFive;
+    font-size: 70px;
   }
   .subtitle {
     color: $PrimaryTwo;
+    font-size: 40px;
   }
 }
 
@@ -77,20 +79,44 @@ h3 {
   margin-left: 90px;
   margin-right: 90px;
 }
-
-.tile {
-  flex-wrap: wrap;
-  margin-top: 10px;
-  background-color: $PrimaryFive;
+// projects
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
 }
 
-.proj1 {
-  transition: all .2s ease-in-out;
+.project-img {
+  margin-left: 30px;
+  img {
+    height: 200px;
+    width: 250px;
+  }
 }
 
-.proj1:hover {
-  transform: scale(1.05);
+.project-text {
+  width: 50vw;
 }
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// .tile {
+//   flex-wrap: wrap;
+//   margin-top: 10px;
+//   background-color: $PrimaryFive;
+// }
+
+// .proj1 {
+//   transition: all .2s ease-in-out;
+// }
+
+// .proj1:hover {
+//   transform: scale(1.05);
+// }
 
 .skills {
   margin-bottom: 120px;
