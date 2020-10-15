@@ -10,7 +10,7 @@ const Interests = () => {
           <div className="interests">
             <div className="interests-text">
               <div>
-                <h3>Keeping fit</h3>
+                <h3>Keeping Fit</h3>
                 <p>I cannot sit still, so I often try and find as many fun ways to keep myself moving and running around. I often go on walks, attend yoga classes and try as many different kinds of dance classes as possible! Recently I've tried Jazz and Heels dance classes for the first time. As an ex-gymnast (its not THAT impressive, I stopped at my prime when 10 years old), I've tried to learn some new skills, at the moment focusing on handstands and the splits!</p>
               </div>
               <div>
