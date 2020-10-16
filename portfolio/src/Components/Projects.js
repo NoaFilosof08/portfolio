@@ -8,13 +8,13 @@ const Project = () => {
   return (
     <div id="project" className="section">
       <div className="container">
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <div className="projects">
           <div className="project-img">
             <img src={intro} alt="intro-page"></img>
           </div>
           <div className="project-text">
-            <h3>RuPaul's Space iIvaders</h3>
+            <h3>RuPaul's Space Invaders</h3>
             <p>For my first project as part of the SEI course, we were tasked with creating a VanillaJS game.This was a solo task which was assigned after 3 weeks of coding, with one week to complete. My game uses the basic arcade game - space invaders - format. The player is RuPaul and the aliens are Michelle Visage. Listen out for your instructions after you hit play!</p>
             <div className="icons-wrap">
               <i className="devicon-github-plain-wordmark smol-icons"></i>

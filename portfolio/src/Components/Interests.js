@@ -6,7 +6,7 @@ const Interests = () => {
     <div id="interests">
       <div className="section">
         <div className="container">
-          <h1>Interests</h1>
+          <h2>Interests</h2>
           <div className="interests">
             <div className="interests-text">
               <div>

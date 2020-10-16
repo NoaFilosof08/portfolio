@@ -6,6 +6,7 @@
 .button {
 
   background-color: $PrimaryOne;
+  transition: all .2s ease-in-out;
   a {
     color: $PrimaryFive;
     font-family: $PrimaryFont;
@@ -14,6 +15,7 @@
 
 .button:hover {
   background-color: $PrimaryTwo;
+  transform: scale(1.08);
   a:hover {
     color: $PrimaryOne;
   }
@@ -37,7 +39,8 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -53,13 +56,55 @@ h3 {
 
 .home {
   background-color: $PrimaryOne;
+  animation: pulse 1.5s;
   .title{
     color: $PrimaryFive;
     font-size: 70px;
+    animation: bounce 1.5s ease-in;
   }
   .subtitle {
-    color: $PrimaryTwo;
+    color: rgb(175, 160, 160);
     font-size: 40px;
+    animation: bounce1 1.5s ease-in;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes bounce1 {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: $PrimaryTwo;
+  }
+  100% {
+    background-color: $PrimaryOne;
   }
 }
 
@@ -83,7 +128,7 @@ h3 {
 .projects {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px;
+  margin: 70px;
 }
 
 .project-img {
